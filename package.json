@@ -1,0 +1,17 @@
+{
+  "name": "example-load-testing",
+  "version": "1.0.0",
+  "description": "example load testing",
+  "scripts": {
+    "start:fastify": "node src/fastify.js",
+    "start:micro": "micro src/micro.js",
+    "test": "k6 run src/test-load.js"
+  },
+  "author": "Oliver Smit <github.com/olmesm>",
+  "license": "MIT",
+  "dependencies": {
+    "fastify": "*",
+    "micro": "*",
+    "sleep": "*"
+  }
+}
