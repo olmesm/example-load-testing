@@ -7,7 +7,7 @@ Example load testing for node.js
 brew install k6
 
 # Start the server
-npm start:[micro|fastify]
+npm run start:[micro|fastify]
 
 # In another shell, start testing
 npm test
