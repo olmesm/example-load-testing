@@ -1,6 +1,6 @@
 const delay = require("delay");
 
-const SECONDS = 3;
+const SECONDS = 1000 * 3;
 
 const fastify = require("fastify")();
 

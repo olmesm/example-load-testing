@@ -1,7 +1,7 @@
 import http from "k6/http";
 import { check, sleep } from "k6";
 
-const REQ_PER_SECOND = 10;
+const REQ_PER_SECOND = 100;
 
 export let options = {
   vus: REQ_PER_SECOND,
