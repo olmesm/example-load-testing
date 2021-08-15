@@ -10,8 +10,8 @@
   "author": "Oliver Smit <github.com/olmesm>",
   "license": "MIT",
   "dependencies": {
+    "delay": "*",
     "fastify": "*",
-    "micro": "*",
-    "sleep": "*"
+    "micro": "*"
   }
 }

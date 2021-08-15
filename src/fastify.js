@@ -1,11 +1,11 @@
-const { sleep } = require("sleep");
+const delay = require("delay");
 
 const SECONDS = 3;
 
 const fastify = require("fastify")();
 
 fastify.get("/", async (_, reply) => {
-  await sleep(SECONDS);
+  await delay(SECONDS);
 
   reply.send("done!");
 });

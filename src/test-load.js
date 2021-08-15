@@ -9,7 +9,7 @@ export let options = {
 };
 
 export default function () {
-  let res = http.get("http://host.docker.internal:3000");
+  let res = http.get("http://0.0.0.0:3000");
   check(res, { "status was 200": (r) => r.status == 200 });
   sleep(1);
 }
